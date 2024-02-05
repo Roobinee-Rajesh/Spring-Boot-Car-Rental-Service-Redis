@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
+--
+-- Host: localhost    Database: car_rental_service
+-- ------------------------------------------------------
+-- Server version	8.0.33
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,'11, Tambaram, Chennai-59','2023-11-30 16:42:54.183000','user@user.com','user','$2a$10$VCyQxbf/tKwc2S6gLIszOelNkNXON8H3BYufxvIhTy6dP8DGY3w8a','1234567891','user',1),(2,'Theni','2023-11-30 16:42:54.342000','admin@admin.com','admin','$2a$10$vw78YRpsJzUKPZCT77kw9.vYQgrcTdeYrkiCmj.QGwyR5PssV.11e','1234567892','admin',2),(3,'Chengalpet','2023-11-30 16:42:54.430000','staff@staff.com','staff','$2a$10$F5Qe7LuPw.F5ZhxYyUC3C.42Dlxdvp5chfSh6/z/OyOXsADr.8Zla','1234567893','staff',3),(4,'No 11,Senthil Murugan Street','2023-11-30 17:02:04.775000','roobineer.2002@gmail.com','Roobinee','$2a$10$nexI5pvgZJG/VgNsWH/mueN1azSg2nLm7Mzb1PAToepbTV6S0hRYi','+916380749031','Roobinee',3),(14,'11,Irrumbuliyur,Tambaram','2023-11-30 22:29:19.589000','userTest@gmail.com','Usertest','$2a$10$V5xCLUfSn2T27HpYAqyIMuYEl1yEJvysH.OImCDTDiHy3tTgEFCva','916380749031','Usertest',1),(16,'11,Irrumbuliyur,Tambaram','2023-11-30 23:03:49.747000','testdemo@gmail.com','TestDemo','$2a$10$t25t14EchvuIcmRx/u/ASOiA6DkcrXMVmmhfA7XYJdJSR3o2NnQGK','+916380749031','TestDemo',1);
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-01 15:08:54
